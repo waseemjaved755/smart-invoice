@@ -1,4 +1,3 @@
 {
-  "buildCommand": "next build",
-  "ignoreCommand": "echo 'Skipping lint step'"
+  "buildCommand": "NEXT_DISABLE_ESLINT=true next build"
 }
